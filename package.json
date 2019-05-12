@@ -1,0 +1,15 @@
+{
+  "name": "jenkinsexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./build && parcel build index.html --out-dir build",
+    "dev": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  }
+}
