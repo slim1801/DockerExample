@@ -6,8 +6,8 @@ pipeline {
   stages {
     stage('Run things') {
       steps {
-        sh 'npm install'
-        sh 'npm run build'
+        sh 'docker build -t slimmy1801/docker-example'
+        sh 'docker run slimmy1801/docker-example'
       }
     }
   }     
